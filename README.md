@@ -6,10 +6,16 @@ Parappa (the wrapper) wraps other commands in a REPL
 
 > **whois>**reddit.com
 
-> *results*
+> Results...
 
 > **whois>**techcrunch.com
 
-> *results*
+> Results...
+
+## Code
+
+> while read -p $@">" input; do
+>   $@ $input
+> done
 
 Ctrl-C/Ctrl-D to exit.
