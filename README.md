@@ -11,7 +11,7 @@ done
 ## Example
 
 ```
-parappa whois
+>parappa whois
 whois>reddit.com
   
 Whois Server Version 2.0
