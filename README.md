@@ -1,12 +1,15 @@
-# Parappa (the wrapper) wraps other commands in a REPL
+# Parappa (the wrapper)
+Parappa (the wrapper) wraps other commands in a REPL
 
-## Example:
-> ./parappa whois
+## Example
+> parappa whois
 
-> whois>reddit.com
+> **whois>**reddit.com
+
 > *results*
 
-> whois>techcrunch.com
+> **whois>**techcrunch.com
+
 > *results*
 
 Ctrl-C/Ctrl-D to exit.
