@@ -1,6 +1,12 @@
 # Parappa (the wrapper)
 Parappa (the wrapper) wraps other commands in a REPL
 
+> while read -p $@">" input; do
+
+>   $@ $input
+
+> done
+
 ## Example
 > parappa whois
 
@@ -11,11 +17,5 @@ Parappa (the wrapper) wraps other commands in a REPL
 > **whois>**techcrunch.com
 
 > Results...
-
-## Code
-
-> while read -p $@">" input; do
->   $@ $input
-> done
 
 Ctrl-C/Ctrl-D to exit.
