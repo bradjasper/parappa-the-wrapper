@@ -1,4 +1,4 @@
-Parappa (the wrapper) wraps other cmds in a REPL
+Parappa (the wrapper) wraps other commands in a REPL
 
 Example:
  ./parappa whois
